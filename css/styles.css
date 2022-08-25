@@ -87,7 +87,7 @@ ul {
 /* header */
 
 .header {
-border-bottom: 1px solid #ECECEC;
+  border-bottom: 1px solid #ececec;
 }
 
 .container {
@@ -127,7 +127,6 @@ border-bottom: 1px solid #ECECEC;
   align-items: center;
 }
 
-
 .header-list {
   display: flex;
   gap: 50px;
@@ -143,8 +142,8 @@ border-bottom: 1px solid #ECECEC;
 .header-nav-link,
 .link-contact {
   display: block;
-padding-top: 32px;
-padding-bottom: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .link.link-contact {
