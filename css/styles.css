@@ -15,6 +15,8 @@
   --dark-bcg-color: #2f303a;
   --blue-btn-color: #2196f3;
 
+  --border-setup: 1px solid #EEEEEE;
+
   /* font root selector */
   --main-font: roboto, sans-serif;
   --secondary-font: Raleway, sans-serif;
@@ -376,10 +378,18 @@ ul {
 /* =========================================== */
 /* =============== portfolio ================= */
 
-.section > .main-title {
-  font-size: 0px;
+/* ----------- button style ------------- */
+.list-button {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 50px;
 }
+
 .list-item > .btn {
+  padding: 6px 22px;
+  border-radius: 4px;
+
   background-color: var(--light-bcg-color);
   font-weight: 500;
   line-height: calc(26 / 16);
@@ -392,14 +402,32 @@ ul {
   background-color: var(--blue-btn-color);
   color: var(--white-color);
 }
-.link > .section-title {
+
+/* --------- card style -------------- */
+
+.list-portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.client-txt {
+  padding: 20px 24px;
+  border-left: var(--border-setup);
+  border-right: var(--border-setup);
+  border-bottom: var(--border-setup);
+}
+
+.client-txt > .section-title {
+  margin-bottom: 4px;
+
   color: var(--main-txt-color);
   font-size: 18px;
   line-height: calc(36 / 18);
   letter-spacing: 0.06em;
 }
 
-.link > .section-text {
+.client-txt > .section-text {
   color: var(--light-txt-color);
   font-weight: 400;
   font-size: 16px;
@@ -407,8 +435,8 @@ ul {
   letter-spacing: 0.03em;
 }
 
-.link > .section-title:active,
-.link > .section-title:hover,
-.link > .section-title:focus {
+.client-txt > .section-title:active,
+.client-txt > .section-title:hover,
+.client-txt > .section-title:focus {
   color: var(--blue-txt-color);
 }
