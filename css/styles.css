@@ -84,8 +84,8 @@ ul {
   color: var(--light-txt-color);
   background-color: var(--blue-btn-color);
 }
-/* header */
 
+/* header */
 .header {
   border-bottom: 1px solid #ececec;
 }
