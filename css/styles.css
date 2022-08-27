@@ -374,7 +374,7 @@ ul {
   letter-spacing: 0.03em;
 }
 
-.address-txt {
+.list-address > .list-item:not(:last-child) {
   margin-bottom: 9px;
 }
 
