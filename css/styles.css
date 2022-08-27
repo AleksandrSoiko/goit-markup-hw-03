@@ -236,7 +236,6 @@ ul {
 .list-adv {
   display: flex;
   gap: 30px;
-  margin-bottom: 94px;
 }
 
 .advantage {
@@ -256,6 +255,10 @@ ul {
 }
 
 /* ============ our work section style ========== */
+.work {
+  padding-top: 0;
+}
+
 .work-list {
   display: flex;
   gap: 30px;
