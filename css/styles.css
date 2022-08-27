@@ -176,7 +176,7 @@ ul {
   background-color: var(--dark-bcg-color);
 }
 
-.section-hero > .container {
+.section-hero {
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -326,7 +326,7 @@ ul {
 
 /* ======== footer style ========== */
 
-.footer-container {
+.footer {
   padding-top: 60px;
   padding-bottom: 60px;
 }
